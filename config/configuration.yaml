@@ -11,11 +11,11 @@ logger:
 
 
 
-# switch:
-#   - platform: integration_blueprint
-#     host: 192.168.68.200
-#     port: 502
-#     num_relays: 16
+switch:
+  - platform: integration_blueprint
+    host: 192.168.68.200
+    port: 502
+    num_relays: 32
 
 # dooya_curtains:
 #   - name: Living Room Curtains
@@ -24,10 +24,10 @@ logger:
 #     device_address: 0
 
 
-# waveshare_relay:
-#   host: "192.168.68.200"
-#   port: 502
-#   num_relays: 16
+waveshare_relay:
+  host: "192.168.68.200"
+  port: 502
+  num_relays: 32
 
 # switch:
 #   - platform: waveshare_relay
