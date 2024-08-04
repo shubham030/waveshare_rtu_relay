@@ -1,0 +1,9 @@
+{
+  "domain": "integration_blueprint",
+  "name": "Waveshare Relay",
+  "documentation": "https://www.waveshare.com/wiki/Modbus_RTU_Relay_16CH",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [],
+  "version": "1.0.0"
+}

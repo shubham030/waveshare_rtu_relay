@@ -5,4 +5,50 @@ default_config:
 logger:
   default: info
   logs:
-    custom_components.integration_blueprint: debug
+    # custom_components.integration_blueprint: debug
+    # custom_components.waveshare_relay: debug
+    custom_components.dooya_curtains: debug
+
+
+
+# switch:
+#   - platform: integration_blueprint
+#     host: 192.168.68.200
+#     port: 502
+#     num_relays: 16
+
+# dooya_curtains:
+#   - name: Living Room Curtains
+#     host: 192.168.68.200
+#     port: 502
+#     device_address: 0
+
+
+# waveshare_relay:
+#   host: "192.168.68.200"
+#   port: 502
+#   num_relays: 16
+
+# switch:
+#   - platform: waveshare_relay
+#     host: "192.168.68.200"
+#     port: 502
+#     relays:
+#       - relay_1
+#       - relay_2
+#       - relay_3
+#       - relay_4
+#       - relay_5
+#       - relay_6
+#       - relay_7
+#       - relay_8
+#       - relay_9
+#       - relay_10
+#       - relay_11
+#       - relay_12
+#       - relay_13
+#       - relay_14
+#       - relay_15
+#       - relay_16
+
+

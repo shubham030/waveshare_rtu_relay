@@ -1,0 +1,11 @@
+{
+    "domain": "dooya_curtains",
+    "name": "DOOYA Curtains",
+    "version": "1.0",
+    "documentation": "https://www.example.com",
+    "dependencies": [],
+    "codeowners": [],
+    "requirements": [],
+    "config_flow": true
+
+  }
