@@ -1,8 +1,8 @@
 {
-    "domain": "waveshare_relay",
-    "name": "Waveshare Relay",
-    "version": "1.0.0",
-    "requirements": [],
-    "dependencies": [],
-    "codeowners": []
+  "domain": "waveshare_relay",
+  "name": "Waveshare Relay",
+  "version": "1.0.0",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@shubham030"]
 }
