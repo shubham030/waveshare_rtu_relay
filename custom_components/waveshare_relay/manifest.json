@@ -6,5 +6,6 @@
   "issue_tracker": "https://github.com/shubham030/waveshare_rtu_relay/",
   "requirements": [],
   "dependencies": [],
-  "codeowners": ["@shubham030"]
+  "codeowners": ["@shubham030"],
+  "iot_class": "local_polling"
 }

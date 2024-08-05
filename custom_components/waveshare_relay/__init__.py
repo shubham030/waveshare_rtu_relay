@@ -1,13 +1,26 @@
-"""Waveshare Relay Component."""
 import asyncio
 import logging
-
+import voluptuous as vol
 from homeassistant.core import HomeAssistant
+from homeassistant.helpers import config_validation as cv
 from homeassistant.helpers.typing import ConfigType
 
 _LOGGER = logging.getLogger(__name__)
 
 DOMAIN = "waveshare_relay"
+
+CONFIG_SCHEMA = vol.Schema(
+    {
+        DOMAIN: vol.Schema(
+            {
+                vol.Required("host"): cv.string,
+                vol.Required("port"): cv.port,
+                vol.Required("num_relays"): vol.Coerce(int),
+            }
+        ),
+    },
+    extra=vol.ALLOW_EXTRA,
+)
 
 async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
     """Set up the Waveshare Relay component."""
