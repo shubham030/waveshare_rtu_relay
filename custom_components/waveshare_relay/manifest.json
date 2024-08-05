@@ -3,6 +3,7 @@
   "name": "Waveshare Relay",
   "version": "1.0.0",
   "documentation": "https://www.waveshare.com/wiki/Modbus_RTU_Relay_32CH",
+  "issue_tracker": "https://github.com/shubham030/waveshare_rtu_relay/",
   "requirements": [],
   "dependencies": [],
   "codeowners": ["@shubham030"]
