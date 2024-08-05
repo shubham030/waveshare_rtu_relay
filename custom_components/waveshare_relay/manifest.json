@@ -2,6 +2,7 @@
   "domain": "waveshare_relay",
   "name": "Waveshare Relay",
   "version": "1.0.0",
+  "documentation": "https://www.waveshare.com/wiki/Modbus_RTU_Relay_32CH",
   "requirements": [],
   "dependencies": [],
   "codeowners": ["@shubham030"]
